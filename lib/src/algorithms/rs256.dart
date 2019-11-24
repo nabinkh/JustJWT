@@ -81,7 +81,7 @@ Verifier _createVerifier(pointy.RSAPublicKey publicKey) {
 
 RSAKeyPair _parsePEM(String pem) {
   RSAPKCSParser parser = new RSAPKCSParser();
-  return parser.parsePEM(pem);
+  return parser.parsePrivatePEM(pem);
 }
 
 pointy.Signer _createSigner(
