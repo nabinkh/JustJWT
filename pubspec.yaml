@@ -11,7 +11,8 @@ dependencies:
   crypto: '^2.0.1'
   pointycastle:
     git: https://github.com/shamblett/pointycastle.git
-  rsa_pkcs: '^1.1.0'
+  rsa_pkcs: 
+    git: https://github.com/nabinkh/rsa_pkcs
   collection: '^1.14.11'
 
 dev_dependencies:
